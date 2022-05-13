@@ -1,0 +1,14 @@
+{
+  "name": "work-list",
+  "version": "1.0.0",
+  "description": "This is just like a TO DO list",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^18.2.3"
+  }
+}

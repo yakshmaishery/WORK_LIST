@@ -1,0 +1,117 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: grid;
+    user-select: none;
+}
+
+::-webkit-scrollbar{
+    background-color: limegreen;
+    height: 7px;
+    width: 7px;
+    box-shadow: 0px 0px 10px 3px black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 1.6em auto;
+}
+
+.titlebar{
+    display: grid;
+    grid-template-columns: auto 3em 3em 3em;
+    background-color: green;
+    color: white;
+}
+
+#title{
+    font-size: 1.3em;
+    padding-left: 10px;
+    -webkit-app-region:drag;
+}
+
+.mainbtn{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1.2em;
+    color: white;
+}
+
+.mainbtn:hover{
+    color: black;
+    background-color: rgb(0, 255, 0);
+}
+
+.maincontainer{
+    height: calc(100vh - 1.6em);
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.addbutton_div{
+    /* background-color: goldenrod; */
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 10px;
+}
+
+#ADDBTN{
+    background: lime;
+    font-size: 1em;
+    border: 0px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#ADDBTN:hover,#SaveBTN:hover{
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+#SaveBTN{
+    background: lime;
+    font-size: 1.3em;
+    border: 0px solid black;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#cell_containers{
+    /* background-color: white; */
+    height: 100%;
+    width: 100%;
+    display: inline-flexbox;
+    overflow: auto;
+}
+
+.cell_close,.save_btn{
+    background-color: transparent;
+    cursor: pointer;
+    font-size: large;
+    border: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cell_close:hover,.save_btn:hover{
+    background-color: lime;
+}

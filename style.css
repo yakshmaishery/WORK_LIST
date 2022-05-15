@@ -22,6 +22,10 @@ body{
     border-radius: 10px;
 }
 
+::-webkit-scrollbar-corner{
+    background-color: limegreen;
+}
+
 .container{
     display: grid;
     grid-template-rows: 1.6em auto;
@@ -99,8 +103,12 @@ body{
     /* background-color: white; */
     height: 100%;
     width: 100%;
-    display: inline-flexbox;
+    display: flex;
+    flex-direction: column;
     overflow: auto;
+    /* justify-content: center; */
+    align-items: center;
+    /* align-content: center; */
 }
 
 .cell_close,.save_btn{

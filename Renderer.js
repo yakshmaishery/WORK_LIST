@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 <div style="display: flex;flex-direction: row-reverse;background-color: limegreen;border: 1px solid black;">
                     <Button class="cell_close">❌</Button>
                 </div>
-                <textarea name="" id="" cols="30" rows="5" style='width:calc(100vw - 3vw);border:1px solid black;border-top:0px;outline:0px;font-size:x-large;resize:vertical' spellcheck="false"></textarea>
+                <textarea name="" id="" cols="30" rows="5" style='width:calc(100vw - 10vw);border:1px solid black;border-top:0px;outline:0px;font-size:x-large;resize:vertical' spellcheck="false"></textarea>
             </div>
         `
         note.insertAdjacentHTML("afterbegin",template)
@@ -36,7 +36,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 <div style="display: flex;flex-direction: row-reverse;background-color: limegreen;border: 1px solid black;">
                     <Button class="cell_close">❌</Button>
                 </div>
-                <textarea name="" id="" cols="30" rows="5" style='width:calc(100vw - 3vw);border:1px solid black;border-top:0px;outline:0px;font-size:x-large;resize:vertical' spellcheck="false"></textarea>
+                <textarea name="" id="" cols="30" rows="5" style='width:calc(100vw - 10vw);border:1px solid black;border-top:0px;outline:0px;font-size:x-large;resize:vertical' spellcheck="false"></textarea>
             </div>
         `
         note.insertAdjacentHTML("afterbegin",template)
